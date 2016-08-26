@@ -8,3 +8,6 @@ What value do you think it offers?
 	OK you want to commit a logically connected group.  You may not have thought of them all, you can add to it before commiting.  On the other hand, you may decide your changes are garbage, and not commit.  Or that one of the files really doesn't need to be changed.
 How can you use the staging area to make sure you have one commit per logical change?
 	Uh, look at what's there and think about what it does.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	1) I have an algorithm which works but is not optimal.  I discover a new algorithm which should give much better performance.  Better to leave the working version alone and develop the new algorithm implementation independently.  Branches make this easy.
+	
