@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Basicly it creates a .git file (contents unknow) and somehow registers the fact that this is a repository.  It hasn't really done anything yet, but the full git machinery is in place and ready to go.
+
+	Duh, you can't use git without it.

@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Seeing the differences side by side makes it much easier to find unintended changes, e.g. spelling errors.  My favorite on Windows is ExamDiff
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can see what I've tried and rejected so I don't forget and waste time trying it again.
+	I can go back to the last version that worked instead of having to reinvent it.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pro: saved version ends at a logical breakpoint of my choosing, I don't have a bunch of useless saves.
+	Con:  It's up to me to remember to save (commit) periodically and not just bull ahead overwriting previous work, making restoration impossible.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Typically computer applications involve multiple files.  In any given programming session you may modify >=1 files.  Saving the full state of the project even if only 1 file has been changed is easiest way to keep the project in synch.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will find the ID of the commit(s) of interest, then use git diff to find out what changes were made between two commits.  This is where the commit comments are vital to navigation.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can always go back to the version before you broke it.  And the broken version will be saved so you don't repeat the error.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Managing projects, practice so I can claim to know git on job applications.
