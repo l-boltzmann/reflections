@@ -6,3 +6,5 @@ How is the staging area different from the working directory and the repository?
 	The staging area is just what the name implies, a buffer (or pointer) to the names of items you think you'll want to commit. Unlike the working directory it doesn't acutally contain files.  Unlike the repository, it does not contain the history information.
 What value do you think it offers?
 	OK you want to commit a logically connected group.  You may not have thought of them all, you can add to it before commiting.  On the other hand, you may decide your changes are garbage, and not commit.  Or that one of the files really doesn't need to be changed.
+How can you use the staging area to make sure you have one commit per logical change?
+	Uh, look at what's there and think about what it does.
