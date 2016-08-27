@@ -1,1 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
+  The remote repository makes the project accessible to anyone with a GitHub account, particularly co-authors and collaborators. It thus allows for collaborative work on the project. 
+  Maybe you also want to show the work to the world at large.
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+    Editing on GitHub can only be saved by comitting (I think).  So you might have to commit at the end of your working day instead of some logical breakpoint. You'd want to finish the change before pulling to the local repositry. 
